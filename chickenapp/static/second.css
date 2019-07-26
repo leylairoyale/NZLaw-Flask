@@ -1,0 +1,46 @@
+.whatwedo{
+    background-color: darkred;
+    color: white;
+    width: 270px;
+}
+
+.pictures{
+    width: 380px;
+    height: 380px;
+}
+
+
+.darkred{
+    background-color: darkred;
+}
+.col-md-3{
+    padding: 20px;
+    height: 640px;
+    width: 100;
+    font-size: 12px;
+    background-color: darkred;
+    color: white 
+
+}
+.babychick{
+    height: 130px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transportation{
+    position: absolute;
+    bottom: 50px;
+    color:white;
+}
+
+.subrogation{
+    position: absolute;
+    bottom: 50px;
+    color: grey;
+}
+
+/*End of Sasha's CSS */
+  

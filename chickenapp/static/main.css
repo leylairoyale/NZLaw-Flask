@@ -1,0 +1,180 @@
+.heroimage{
+    height: 500px;
+    width: 500px;
+    padding: 30px 30px 30px 0px;
+    position: relative;
+
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1522409872680-d4673886d024);
+}
+.container{
+    background-color: white;
+    height: 100%;
+    padding: 30px;
+}
+.row{
+    height: 100%;
+}
+.navbar {
+    border-top: solid black;
+    border-bottom: solid black;
+    background-color: white !important;
+}
+.navbar-brand {
+    padding: 0px 20px 0px 0px;
+}
+.line {
+    border-right: solid thin lightgray;
+    padding: 0px 20px 0px 0px;
+}
+.headerimage{
+    border-spacing: 1px;
+    border: solid thin black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+.headerimage::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    right: 121px;
+    bottom: 22px;
+    border: 5px solid black;
+    border-width: thin;
+}
+
+.whatdo{
+    border: solid thin rgb(46, 42, 42) !important;
+}
+
+footer{
+    margin: 0 auto;
+}
+.footerline{
+    text-align: center;
+    position: center;
+    margin: 0 auto !important;
+    padding: 0px 0px 0px 50px;
+}
+.footerline a{
+    color: black !important;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px 0px 15px;
+}
+h6{
+    color: gray;
+    text-align: center;
+}
+h1 {
+    padding: 10px !important;
+}
+.jumbotron{
+    background-image: url(https://bit.ly/2XGtJnx);
+    background-size: cover;
+    opacity: .8;
+    height: 500px;
+    width: 500px;
+    color: white;
+    border: solid thin gray;
+}
+.offfset-md-1{
+    border: 10px solid black;
+}
+.about{
+    border: 10px solid white !important;
+}
+/*this isn't working the way i wanted it (not re-sizing with the jumbotron itself) so i'm nixing it but leaving the code as reference. 
+.jumbotron::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    right: 121px;
+    bottom: 22px;
+    border: 5px solid gray;
+    border-width: thin;
+}
+.jumbotron::after{
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -9px;
+    right: 107px;
+    bottom: 8px;
+    border: 5px solid gray;
+    border-width: thick;
+}*/
+.display-4{
+    top: 70%;
+    position: absolute;
+}
+.scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: maroon;
+    color: white;
+    padding: 10px;
+    height: 450px;
+}
+.contact{
+    font-size: small !important;
+}
+
+.head-link{
+    text-decoration: none !important ;
+    color: black !important ;
+}
+
+/* Sasha's CSS */
+
+.whatwedo{
+    background-color: darkred;
+    color: white;
+    width: 270px;
+}
+
+.pictures{
+    width: 380px;
+    height: 380px;
+}
+
+
+.darkred{
+    background-color: darkred;
+}
+.col-md-3{
+    padding: 20px;
+    height: 640px;
+    width: 100;
+    font-size: 12px;
+    background-color: darkred;
+    color: white 
+
+}
+.babychick{
+    height: 130px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transportation{
+    position: absolute;
+    bottom: 50px;
+    color:white;
+}
+
+.subrogation{
+    position: absolute;
+    bottom: 50px;
+    color: grey;
+}
+
+/*End of Sasha's CSS */
+  

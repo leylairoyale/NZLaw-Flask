@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-4">
+            <h1> it's mothercluckin CONTACT PAAAAGE!</h1>
+            <form action="" method="POST">
+                <fieldset>
+                    <label for="Tell us your name.">Tell us your name.</label>
+                    {{ form.name(class="form-control")}}
+                </fieldset>
+                <fieldset>
+                    <label for="What would you like to talk to us about?">What would you like to talk to us about?</label>
+                    {{ form.contact(class="form-control")}}
+                </fieldset>
+                <div>
+                    {{ form.submit(class="btn btn-primary")}}
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

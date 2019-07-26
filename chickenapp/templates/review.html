@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-4">
+
+            <h1> only give me five stars or just leave me alone.</h1>
+
+            <form action="" method="POST">
+                <fieldset>
+                    <label for="name">Name</label>
+                    {{ form.name(class="form-control")}}
+                </fieldset>
+                <fieldset>
+                    <label for="review">Review</label>
+                    {{ form.review(class="form-control")}}
+                </fieldset>
+                <div>
+                    {{ form.submit(class="btn btn-primary")}}
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
