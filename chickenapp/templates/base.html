@@ -55,16 +55,16 @@
             <hr>
            <div>
                <span class="footerline">
-                   <a  href="#">HOME -</a>
-                   <a  href="#">WHO WE ARE -</a>
-                   <a  href="#">WHAT WE DO -</a>
-                   <a  href="#">NEWS & EVENTS -</a>
-                   <a  href="#">WHERE WE WORK -</a>
-                   <a  href="#">REGISTER -</a>
-                   <a  href="#">LOGIN -</a>
+                   <a  href="{{url_for('go_home')}}">HOME -</a>
+                   <a  href="{{url_for('who_are')}}">WHO WE ARE -</a>
+                   <a  href="{{url_for('what_do')}}">WHAT WE DO -</a>
+                   <!-- <a  href="#">NEWS & EVENTS -</a> -->
+                   <!-- <a  href="#">WHERE WE WORK -</a> -->
+                   <a  href="{{url_for('createChicken')}}">REGISTER/LOGIN -</a>
+                   <!-- <a  href="#">LOGIN -</a> -->
                    <a  href="#">LOGOUT -</a>
-                   <a href="#">CONTACT US -</a>
-                   <a  href="#">REVIEW US -</a>
+                   <a href="{{url_for('contactForm')}}">CONTACT US -</a>
+                   <a  href="{{url_for('reviewForm')}}">REVIEW US -</a>
                    <!-- so this needs to connect to the ROUTE for ContactUs-->
                </span>
                </div>
